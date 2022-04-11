@@ -2,6 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Material+Icons');
 :root {
     --cor-principal: #C76D50;
+    --cor-secundaria: white;
 }
 
 body {
@@ -20,6 +21,7 @@ header {
     width: 100%;
     max-width: 1200px;
     margin: auto;
+    height: 100%;
 }
 
 .logo {
@@ -37,6 +39,11 @@ header nav ul li {
 }
 
 /*----------CORPO------------*/
+
+.flex-column {
+    display: flex;
+    flex-direction: column;
+}
 
 .presentation {
     height: calc(100vh - 100px);
@@ -64,11 +71,15 @@ header nav ul li {
 }
 
 .presentation-text h1{
-    font-size: 72px;
+    font-size: 64px;
     margin-bottom: 20px;
 }
 .presentation-text h2{
     font-size: 32px;
+    color: var(--cor-secundaria);
+    background-color: var(--cor-principal);
+    padding: 10px 20px;
+    border-radius: 20px;
 }
 
 .presentation-bottom {
@@ -84,3 +95,32 @@ ion-icon {
     margin-bottom: 10px;
     color: var(--cor-principal);
   }
+
+.charisma{
+    height: 800px;
+}
+
+.title {
+    flex: 1;
+    display: flex;
+    align-items: center;
+}
+.title p {
+    background-color: var(--cor-principal);
+    padding: 10px 20px;
+    border-radius: 20px;
+    color: var(--cor-secundaria);
+    font-size: 28px;
+}
+
+.content {
+    flex: 3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.content p {
+    font-size: 64px;
+    margin-bottom: 250px;
+}
