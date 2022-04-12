@@ -9,50 +9,88 @@
         <link type="text/css" rel="stylesheet" href="./assets/css/style.css">
     </head>
     <body>
-        <header class="container">
-            <div class="logo">
-                <span></span>
+        <header>
+            <div class="container container-flex">
+                <div class="logo">
+                    <span></span>
+                </div>
+                <nav>
+                    <ul>
+                        <li class="link"><a>Home</a></li>
+                        <li class="link"><a>Quem somos</a></li>
+                        <li class="link"><a>Agenda</a></li>
+                        <li class="link"><a>Contato</a></li>
+                    </ul>
+                </nav>
             </div>
-            <nav>
-                <ul>
-                    <li><a>Home</a></li>
-                    <li><a>Quem somos</a></li>
-                    <li><a>Agenda</a></li>
-                    <li><a>Contato</a></li>
-                </ul>
-            </nav>
         </header>
 
         <section class="presentation">
-            <div class="container flex-column">
-                <div class="presentation-logo">
-                    <span>LOGO</span>
-                </div>
-    
-                <div class="presentation-text">
-                    <h1>Comunidade Católica Palavra Viva</h1>
-                    <h2>Casa de recomeço</h2>
-                </div>
-                
-                <div class="presentation-bottom">
-                    <ion-icon name="chevron-down-circle-outline"></ion-icon>
+            <div class="dark">
+                <div class="container flex-column">
+                    <div class="presentation-logo">
+                        <span>LOGO</span>
+                    </div>
+        
+                    <div class="presentation-text">
+                        <h1>Comunidade Católica Palavra Viva</h1>
+                        <h2>Casa de recomeço</h2>
+                    </div>
+                    
+                    <div class="presentation-bottom">
+                        <ion-icon name="chevron-down-circle-outline"></ion-icon>
+                    </div>
                 </div>
             </div>
         </section>
 
         <section class="charisma">
-            <div class="container flex-column">
-                <div class="title">
-                    <p>Nosso carisma:</p>
-                </div>
-                <div class="content">
-                    <p>"Levar as pessoas <br/> a recomeçar <br/> através da palavra"</p>
+            <div class="light">
+                <div class="container flex-column">
+                    <div class="title">
+                        <p>Nosso carisma:</p>
+                    </div>
+                    <div class="content">
+                        <p><span class="decoration">"</span>Levar as pessoas <br/> a <span class="decoration">recomeçar</span> <br/> através da <span class="decoration">palavra</span><span class="decoration">"</span></p>
+                    </div>
                 </div>
             </div>
         </section>
 
-        <footer>
+        
+        <section class="founder">
+            <div class="container flex">
+                <div class="founder-about">
+                    <h1 class="founder-about-title">Nosso <br/> <span>Fundador</span></h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut repellat esse, et aliquam saepe adipisci, impedit reprehenderit commodi rem quidem, quaerat minima numquam ipsum voluptatum vero! Delectus odit sapiente, nostrum quasi quae voluptate maxime.</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit odio cupiditate optio recusandae ipsam. Molestias doloribus dolorem deserunt. Quo tempore repellat assumenda incidunt, quos provident necessitatibus aspernatur tempora dignissimos dolor. Dicta itaque temporibus exercitationem mollitia assumenda!</p>
+                </div>
+                
+                <div class="founder-photo">
+                    
+                    <div class="founder-name">
+                        <p>Neri Agostinho</p>
+                    </div>
+                </div>
+            </div>
+        </section>
 
+        <section class="photo">
+            <div class="dark">
+                <h1 class="qr-code-title">Dê uma olhada no nosso <br/> vídeo institucional!</h1>
+                <img class="qr-code" src="./assets/images/qr-code.jpg" alt="QRCode do vídeo institucional">
+            </div>
+        </section>
+
+        <footer class="footer">
+            <div class="social">
+                <h1>Siga-nos</h1>
+                <div class="social-icons">
+                    <a href="#"><ion-icon class="icon" name="logo-instagram"></ion-icon></a>
+                    <a href="#"><ion-icon class="icon" name="logo-whatsapp"></ion-icon></a>
+                    <a href="#"><ion-icon class="icon" name="logo-facebook"></ion-icon></a>
+                </div>
+            </div>
         </footer>
 
         <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
