@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Material+Icons');
+
+:root {
+    --cor-principal: #C76D50;
+    --cor-secundaria: white;
+    --cinza-claro: rgb(211, 211, 211);
+}
+
+body {
+    font-family: 'Comfortaa', cursive;
+}
+
+header {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    color: var(--cor-principal);
+    font-size: 24px;
+    background-color: rgba(17, 17, 17, 0.85);
+    height: 100px;
+    /* display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 20px;
+    color: var(--cor-principal); */
+}
+
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    height: 100%;
+}
+
+.container-flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    width: 80px;
+    height: 80px;
+}
+
+header nav ul {
+    display: flex;
+}
+
+header nav ul li {
+    margin: 10px 20px;
+}
+
+.link {
+    border-bottom: 2px solid transparent;
+    transition: all ease 0.3s;
+    transform: scale(0.9);
+}
+
+.link:hover {
+    border-bottom: 2px solid var(--cor-secundaria);
+    cursor: pointer;
+    transition: all ease 0.3s;
+    transform: scale(1);
+}
+
+.dark {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(17, 17, 17, 0.85);
+}
+
+.light {
+    height: 600px;
+    background-color: rgba(231, 231, 231, 0.8);
+}
+
+/* ----------------------- */
+
+.introduction {
+    display: flex;
+    padding-top: 100px;
+}
+
+.image {
+    width: 50%;
+}
+
+.introduction-text {
+    
+}
