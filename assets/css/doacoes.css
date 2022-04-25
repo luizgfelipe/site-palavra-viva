@@ -20,11 +20,6 @@ header {
     color: var(--cor-principal);
     font-size: 24px;
     height: 100px;
-    /* display: flex;
-    justify-content: space-between;
-    align-items: center;
-    font-size: 20px;
-    color: var(--cor-principal); */
 }
 
 .container {
@@ -87,62 +82,62 @@ header nav ul li {
 
 /* ----------------------------- */
 
-
-.about-top {
+.header-fake {
     height: 200px;
     background-image: url('../images/galpao.jpg');
     background-size: cover;
     background-position: top;
 }
 
-.about-content {
-    padding: 20px 0;
+.appeal {
+    text-align: center;
+    background-color: var(--cor-principal);
+    padding: 50px 0;
+    border-bottom: 10px solid white;
+}
+
+.appeal h1 {
+    font-size: 56px;
     font-family: 'Glore Font';
+    margin-bottom: 35px;
+    padding-bottom: 10px;
+    border-bottom: 5px double white;
 }
 
-.about-content h1 {
-    font-size: 48px;
-    margin: 20px 0;
-}
-
-.about-content h2 {
+.appeal h2 {
     font-size: 40px;
-    line-height: 56px;
-    margin: 20px 0;
-    padding-bottom: 5px;
-    border-bottom: 6px double var(--cor-principal);
-}
-
-.about-content-image {
-    margin-top: 40px;
-    display: flex;
-    justify-content: center;
-    flex-direction: row;
-    height: 300px;
-}
-
-.about-content-image p {
-    font-family: 'Comfortaa', cursive;
-    font-size: 30px;
-    line-height: 34px;
-    flex: 1;
-    margin: auto 0 auto 0;
 }
 
 
-.about-content-image .figure {
-    flex: 1;
-    background-image: url('../images/galpao.jpg');
+.qr-code {
+    background-image: url('../images/qr-code.jpg');
+    width: 200px;
+    height: 200px;
+    background-position: center;
     background-size: cover;
-    background-position: bottom;
-    margin: 0 30px 0 30px;
+    margin: 25px auto;
 }
 
-.reverse {
+.donations p {
+    text-align: center;
+    font-size: 20px;
+    margin-top: -15px;
+}
+
+.pix {
+    margin: 25px auto;
+    display: flex;
+    justify-content: space-around;
     flex-direction: row-reverse;
 }
 
-/*--------------------------*/
+.pix h1, h2 {
+    font-size: 38px;
+    padding-bottom: 5px;
+    border-bottom: 8px double var(--cor-principal);
+}
+
+/* ----------------------------- */
 
 .footer {
     display: flex;
@@ -189,59 +184,4 @@ header nav ul li {
 .icon {
     width: 40px;
     margin: 10px;
-}
-
-.reception {
-    padding: 20px 0;
-}
-
-.reception h1 {
-    font-family: 'Glore Font';
-    width: max-content;
-    font-size: 40px;
-    line-height: 48px;
-    margin: 20px 0;
-    padding-bottom: 5px;
-    border-bottom: 6px double var(--cor-principal);
-}
-
-.reception p {
-    font-family: 'Comfortaa', cursive;
-    font-size: 30px;
-    line-height: 34px;
-    flex: 1;
-    margin: auto 0 auto 0;
-}
-
-
-.galery {
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-}
-
-.galery .photo{
-    flex: 1;
-    height: 350px;
-    box-shadow: 3px 3px 10px #444;
-    background-size: cover;
-    background-position: top;
-    background-repeat: no-repeat;
-    margin: 30px 20px 30px 10px;
-}
-.galery .photo:first-child{
-    margin-left: 0;
-}
-.galery .photo:last-child{
-    margin-right: 0;
-}
-
-.photo1{
-    background-image: url('../images/neri.jpg');
-}
-.photo2{
-    background-image: url('../images/neri.jpg');
-}
-.photo3{
-    background-image: url('../images/neri.jpg');
 }
